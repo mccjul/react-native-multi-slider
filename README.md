@@ -3,6 +3,8 @@
 ## Getting started
 
 `$ npm install react-native-multi-slider --save`
+or
+`$ yarn add react-native-multi-slider`
 
 ### Mostly automatic installation
 
