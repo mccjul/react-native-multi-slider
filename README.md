@@ -1,5 +1,7 @@
 # react-native-multi-slider
 
+This is currently under development. It doesn't work yet.
+
 ## Getting started
 
 `$ npm install react-native-multi-slider --save`
