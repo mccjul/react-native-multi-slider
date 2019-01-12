@@ -1,3 +1,5 @@
 rootProject.name = 'example'
+include ':rn-native-multi-slider'
+project(':rn-native-multi-slider').projectDir = new File(rootProject.projectDir, '../node_modules/rn-native-multi-slider/android')
 
 include ':app'
