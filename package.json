@@ -1,6 +1,6 @@
 {
-  "name": "react-native-multi-slider",
-  "version": "1.0.0",
+  "name": "rn-native-multi-slider",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Enrise/react-native-nmrangeslider-ios.git"
+    "url": "git://github.com/mccjul/react-native-multi-slider.git"
   },
   "peerDependencies": {
     "react-native": "^0.57.8"
