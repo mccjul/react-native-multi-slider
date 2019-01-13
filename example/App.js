@@ -16,7 +16,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <RNMultiSlider />
+        <RNMultiSlider numOfSliders={2} max={5} min={0} steps={5} />
       </View>
     );
   }

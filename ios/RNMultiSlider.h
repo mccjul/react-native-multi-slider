@@ -1,11 +1,9 @@
-
-#if __has_include("RCTBridgeModule.h")
 #import "RCTBridgeModule.h"
-#else
-#import <React/RCTBridgeModule.h>
-#endif
+#import "RCTViewManager.h"
+#import "NMRangeSlider.h"
 
-@interface RNMultiSlider : NSObject <RCTBridgeModule>
+@interface RNMultiSlider : RCTViewManager
+
+- (void)sendValues:(NSString *)eventName touch:(UITouch *)touch;
 
 @end
-  

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25D10D5321EB9E4A001D9BB0 /* NMVerticalRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D10D5221EB9E4A001D9BB0 /* NMVerticalRangeSlider.m */; };
+		25D10D5921EB9EBB001D9BB0 /* MMColorForTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D10D5421EB9EBB001D9BB0 /* MMColorForTrack.m */; };
+		25D10D5A21EB9EBB001D9BB0 /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D10D5721EB9EBB001D9BB0 /* NMRangeSlider.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNMultiSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMultiSlider.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +27,12 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNMultiSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMultiSlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D10D5221EB9E4A001D9BB0 /* NMVerticalRangeSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMVerticalRangeSlider.m; sourceTree = "<group>"; };
+		25D10D5421EB9EBB001D9BB0 /* MMColorForTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMColorForTrack.m; sourceTree = "<group>"; };
+		25D10D5521EB9EBB001D9BB0 /* NMVerticalRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMVerticalRangeSlider.h; sourceTree = "<group>"; };
+		25D10D5621EB9EBB001D9BB0 /* MMColorForTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMColorForTrack.h; sourceTree = "<group>"; };
+		25D10D5721EB9EBB001D9BB0 /* NMRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMRangeSlider.m; sourceTree = "<group>"; };
+		25D10D5821EB9EBB001D9BB0 /* NMRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMRangeSlider.h; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNMultiSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMultiSlider.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMultiSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMultiSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +59,12 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				25D10D5621EB9EBB001D9BB0 /* MMColorForTrack.h */,
+				25D10D5421EB9EBB001D9BB0 /* MMColorForTrack.m */,
+				25D10D5821EB9EBB001D9BB0 /* NMRangeSlider.h */,
+				25D10D5721EB9EBB001D9BB0 /* NMRangeSlider.m */,
+				25D10D5521EB9EBB001D9BB0 /* NMVerticalRangeSlider.h */,
+				25D10D5221EB9E4A001D9BB0 /* NMVerticalRangeSlider.m */,
 				B3E7B5881CC2AC0600A0062D /* RNMultiSlider.h */,
 				B3E7B5891CC2AC0600A0062D /* RNMultiSlider.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -112,7 +127,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D10D5921EB9EBB001D9BB0 /* MMColorForTrack.m in Sources */,
+				25D10D5A21EB9EBB001D9BB0 /* NMRangeSlider.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNMultiSlider.m in Sources */,
+				25D10D5321EB9E4A001D9BB0 /* NMVerticalRangeSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +222,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",

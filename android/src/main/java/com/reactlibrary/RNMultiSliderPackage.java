@@ -1,6 +1,8 @@
 
 package com.reactlibrary;
 
+import android.app.Activity;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -11,9 +13,16 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
 public class RNMultiSliderPackage implements ReactPackage {
+    private Activity mActivity = null;
+
+    public RNMultiSliderPackage(Activity activity) {
+        mActivity = activity;
+    }
+
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-      return Arrays.<NativeModule>asList(new RNMultiSliderModule(reactContext));
+      //return Arrays.<NativeModule>asList(new RNMultiSliderModule(reactContext));
+        return Collections.emptyList();
     }
 
     // Deprecated from RN 0.47
@@ -23,6 +32,8 @@ public class RNMultiSliderPackage implements ReactPackage {
 
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-      return Collections.emptyList();
+        return Arrays.<ViewManager>asList(
+                new RNMultiSliderViewManager(mActivity)
+        );
     }
 }
