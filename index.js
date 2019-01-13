@@ -1,5 +1,6 @@
 // @flow
 
+// $FlowFixMe
 import React, { requireNativeComponent, ColorPropType } from "react-native";
 
 const RNMultiSliderNative = requireNativeComponent("RCTRNMultiSliderView");
